@@ -1,1 +1,1 @@
-web: gunicorn mcaproject.wsgi --log-file -
+waitress-serve --listen=*:8000 projectapp.wsgi:application
